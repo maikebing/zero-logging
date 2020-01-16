@@ -16,7 +16,7 @@
       }
     },
     "Elasticsearch": {
-      "ElasticsearchUrl": "http://localhost:9200",
+      "ElasticsearchUrl": "http://elk.uixe.net:9200/",
       "UserName": "",
       "Password": ""
     }

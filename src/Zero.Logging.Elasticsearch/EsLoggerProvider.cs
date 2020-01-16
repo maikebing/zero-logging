@@ -23,7 +23,6 @@ namespace Zero.Logging.Elasticsearch
                 loggerOptions.AutoRegisterTemplate = true;
             }
             _esHelper = ElasticsearchHelper.Create(loggerOptions);
-            _esHelper.RegisterTemplateIfNeeded();
         }
 
         public override ILogger CreateLogger(string categoryName)
